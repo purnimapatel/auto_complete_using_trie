@@ -1,0 +1,10 @@
+.top{
+    margin-top: 50px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+.btn-primary{
+    margin-left: -10px;
+}

@@ -17,22 +17,21 @@
         </div>
     </header>
 
-    <main>
+    <>
 
         <div class="container top">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" onkeypress="handleKeyPress(event)" placeholder="Type your text" id="text-box">
-                <span><button class="btn btn-primary"  onclick="handleSubmit()">Submit</button></span>
+                <input type="text" class="form-control" placeholder="Type your text" id="text-box">
             </div>
             <ul id="list" class="list-group">
             </ul>
 
         </div>
-        
+        <span><button class="btn btn-primary" onclick="handleClick()">Submit</button></span>
     </main>
 
     <script src="./js/trie.js"></script>
-    <!-- <script src="./js/data.js"></script> -->
+    <script src="./js/data.js"></script>
     <script src="./js/index.js"></script>
     
 </body>

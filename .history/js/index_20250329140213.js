@@ -26,11 +26,7 @@ function handler(e) {
 function handleClick(e) {
     text_box.value = e.innerText;
 }
-function handleKeyPress(event){
-    if(event.key === "Enter"){
-        handleSubmit();
-    }
-}
+
 function handleSubmit(){
     let data = text_box.value.trim();
     if(data) {

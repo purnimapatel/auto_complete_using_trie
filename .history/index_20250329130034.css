@@ -1,0 +1,10 @@
+.top{
+    margin-top: 50px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+button{
+    margin-left: -10px;
+}

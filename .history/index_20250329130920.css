@@ -1,0 +1,22 @@
+.top{
+    margin-top: 50px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.btn-primary{
+    margin-left: -50px;
+    position: relative;
+    z-index: 2;
+}
+
+.form-control{
+    z-index: 1;
+    padding-right: 60px;
+}
+
+.input-group{
+    position: relative;
+}

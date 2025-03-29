@@ -1,9 +1,5 @@
 .top{
     margin-top: 50px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
 }
 
 .clickable{
@@ -18,10 +14,13 @@
 
 .btn-primary:active{
     z-index: 3;
+    border: none;
+    color: white;
 }
 
-#text-box{
+.form-control{
     z-index: 1;
+    padding-right: 60px;
 }
 .form-control:focus{
     z-index: 1;
